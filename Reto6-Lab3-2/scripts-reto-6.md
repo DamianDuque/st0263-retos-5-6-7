@@ -19,7 +19,7 @@ CREATE EXTERNAL TABLE HDI_db (id INT, country STRING, hdi FLOAT, lifeex INT,
 mysch INT, eysch INT, gni INT)
 ROW FORMAT DELIMITED FIELDS TERMINATED BY ','
 STORED AS TEXTFILE
-LOCATION 's3://etrujilloc-datasets/onu2/hdi/';
+LOCATION 's3://lab1daduquel/onu2/hdi/';
 ```
 
 ### Conexión a beeline.
